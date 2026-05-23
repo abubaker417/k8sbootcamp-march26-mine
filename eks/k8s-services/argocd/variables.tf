@@ -8,11 +8,11 @@ variable "region" {
 
 
 variable "domain_name" {
-  default = "livingdevops.org"
+  default = "devopslab.info"
 }
 
 variable "acm_cert_arn" {
-  default = "arn:aws:acm:ap-south-1:879381241087:certificate/d7c449d8-1540-4157-8959-bc48bb44b128"
+  default = "arn:aws:acm:ap-south-1:939446055203:certificate/732a2836-5179-425a-b00a-d8d9222eb781"
 }
 
 variable "aws_alb_zoneid" {

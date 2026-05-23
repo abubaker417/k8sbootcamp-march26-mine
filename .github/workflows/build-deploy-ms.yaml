@@ -7,7 +7,7 @@ on:
 
 env:
   AWS_REGION: ap-south-1
-  ECR_REGISTRY: 879381241087.dkr.ecr.ap-south-1.amazonaws.com
+  ECR_REGISTRY: 939446055203.dkr.ecr.ap-south-1.amazonaws.com
   core_path: eks-microservice-implementation
 
 jobs:
@@ -68,7 +68,8 @@ jobs:
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v4
         with:
-          #### if using aws access keys and secrets ###
+          #### if using aws access keys and secrets
+
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: ${{ env.AWS_REGION }}

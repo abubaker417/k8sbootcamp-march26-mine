@@ -1,9 +1,9 @@
 provider "aws" {
-  region = var.region
+  region = "app-south-1"
 
   default_tags {
     tags = {
-      repo = "k8sbootcamp-march26/eks-microservice-implementation"
+      repo = "k8sbootcamp-march26-mine/eks-microservice-implementation"
     }
   }
 }
